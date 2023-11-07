@@ -1,0 +1,30 @@
+{
+  "name": "node003",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec npx babel-node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trongnp2002/nodejs-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trongnp2002/nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/trongnp2002/nodejs-learning#readme",
+  "dependencies": {
+    "@babel/core": "7.15.4",
+    "@babel/node": "7.15.4",
+    "@babel/preset-env": "7.15.4",
+    "body-parser": "1.19.1",
+    "dotenv": "10.0.0",
+    "ejs": "3.1.6",
+    "express": "4.17.2",
+    "nodemon": "2.0.15"
+  }
+}
